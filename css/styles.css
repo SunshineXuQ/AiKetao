@@ -2,8 +2,17 @@
 
 /* 全局样式 */
 
-body, h1 {
+body, h1, ul, p {
 	margin: 0;
+}
+
+input {
+	padding: 0;
+}
+
+ul {
+	padding-left: 0;
+	list-style: none;
 }
 
 body {
@@ -14,7 +23,7 @@ body {
 .container {
 	width: 960px;
 	margin: 0 auto;
-	background: yellow;
+	/*border: 1px solid #000;*/
 }
 
 .clearfix {
@@ -32,6 +41,15 @@ body {
 	border-bottom: 1px solid #d1d0d0;
 }
 
+.top span{
+	margin-right: 40px;
+	color: #999;
+}
+
+.top span, .logo {
+	margin-left: 10px;
+}
+
 .logo h1 a{
 	display: block;
 	width: 219px;
@@ -42,4 +60,86 @@ body {
 
 .logo, .search, .tel {
 	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
+
+.search {
+	width: 400px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.search input {
+	outline: none;
+	height: 38px;
+	border: 1px solid #0A5C5B;
+}
+
+.search input:first-child {
+	width: 321px;
+}
+
+.search .btn {
+	width: 75px;
+	height: 40px;
+	background: #0A5C5B;
+	color: #fff;
+	cursor: pointer;
+}
+
+.search p {
+	margin-top: 8px;
+	color: #bbb;
+}
+.tel {
+	background: url(../images/telBG.png) no-repeat;
+	width: 160px;
+	height: 24px;
+	padding-top: 30px;
+	padding-left: 5px;
+	color: #f50;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.nav {
+	background-color: #0A5C5B;
+}
+
+.nav ul {
+	margin-left: 10px;
+	width: 940px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	display: block;
+	width: 134px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav li a:hover {
+	color: #f50;
+}
+.nav li a:hover, .active {
+	background: url(../images/active.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
