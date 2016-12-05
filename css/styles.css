@@ -133,8 +133,13 @@ body {
 	background: url(../images/active.jpg);
 }
 
-
-
+/* banner */
+.banner {
+	height: 400px;
+	background: url(../images/banner.jpg) center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 
 
 
